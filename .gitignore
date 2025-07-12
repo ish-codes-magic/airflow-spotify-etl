@@ -1,0 +1,18 @@
+# Security - NEVER commit these files
+.env
+
+# Spotify cache
+.spotify_cache
+.cache-*
+
+# Airflow
+.airflow/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+logs/
+*.log
+*.sqlite
+
+# Python
+__pycache__/

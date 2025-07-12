@@ -1,0 +1,35 @@
+# Apache Airflow
+apache-airflow>=2.7.0,<3.0.0
+
+# Spotify API
+spotipy>=2.23.0
+requests>=2.31.0
+
+# Twitter API
+tweepy>=4.14.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database
+SQLAlchemy>=1.4.0,<2.0.0
+
+# AWS (for S3 operations if needed)
+boto3>=1.28.0
+s3fs>=2023.6.0
+
+# HTTP requests and web
+urllib3>=1.26.0
+
+# Utilities
+python-dotenv>=1.0.0  # For .env file support
+typing-extensions>=4.0.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Security note: Pin versions for production use
+# Update regularly and test thoroughly before deploying 
